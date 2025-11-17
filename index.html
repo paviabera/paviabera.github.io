@@ -2,115 +2,258 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pavia Bera – PhD in AI & Neuromorphic Computing</title>
+  <title>Pavia Bera – AI & Neuromorphic Computing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Personal website of Pavia Bera, PhD in AI & Neuromorphic Computing.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-wrapper">
+  <div class="layout">
     <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-inner">
-        <h1 class="name">Pavia Bera</h1>
-        <p class="title">PhD in AI &amp; Neuromorphic Computing</p>
+        <div class="brand">
+          <div class="avatar-circle">PB</div>
+          <div>
+            <h1 class="name">Pavia Bera</h1>
+            <p class="role">PhD in AI &amp; Neuromorphic Computing</p>
+          </div>
+        </div>
 
         <nav class="nav">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#publications">Publications</a>
-          <a href="#projects">Projects</a>
-          <a href="#teaching">Teaching</a>
-          <a href="#cv">CV</a>
-          <a href="#contact">Contact</a>
+          <a href="#about" class="nav-link active">About</a>
+          <a href="#research" class="nav-link">Research</a>
+          <a href="#publications" class="nav-link">Publications</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#teaching" class="nav-link">Teaching</a>
+          <a href="#contact" class="nav-link">Contact</a>
         </nav>
 
-        <div class="social">
-          <!-- TODO: Replace "#" with your actual links -->
-          <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+        <div class="sidebar-meta">
+          <p class="location">📍 Tampa, FL, USA</p>
+          <p class="email">
+            <a href="mailto:pavia.bera@example.com">pavia.bera@example.com</a>
+          </p>
+          <div class="social">
+            <!-- TODO: replace # with your real links -->
+            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          </div>
+        </div>
+
+        <div class="sidebar-footer">
+          <span>&copy; <span id="year"></span></span>
         </div>
       </div>
     </aside>
 
-    <!-- Main Content -->
-    <main class="content">
+    <!-- Main content -->
+    <main class="main">
+      <!-- Hero / About -->
       <section id="about" class="section">
-        <h2>About</h2>
-        <p>
-          <!-- TODO: Add a short bio here. For now this is placeholder text. -->
-          I am a PhD researcher in AI and neuromorphic computing, with interests in
-          Hierarchical Temporal Memory (HTM), Reflex Memory, and Bayesian learning.
-        </p>
-      </section>
-
-      <section id="research" class="section">
-        <h2>Research</h2>
-        <p>
-          <!-- TODO: Replace with your research interests -->
-          Research interests: neuromorphic computing, time-series anomaly detection,
-          Bayesian neural networks, and hardware accelerators for AI.
-        </p>
-      </section>
-
-      <section id="publications" class="section">
-        <h2>Publications</h2>
-        <!-- TODO: Add your publications as a list later -->
-        <ul class="pub-list">
-          <li>
-            <span class="pub-title">[Title of your paper]</span><br>
-            <span class="pub-authors">P. Bera et al.</span><br>
-            <span class="pub-venue">Conference/Journal, Year</span>
-          </li>
-        </ul>
-      </section>
-
-      <section id="projects" class="section">
-        <h2>Projects</h2>
-        <!-- TODO: Add real project entries -->
-        <div class="project">
-          <h3>Project Title</h3>
+        <h2 class="section-title">
+          <span class="section-icon">◎</span>
+          <span>About</span>
+        </h2>
+        <div class="section-body">
           <p>
-            Short description of the project. For example: multi-agent Reflex Memory
-            framework for streaming anomaly detection across heterogeneous domains.
+            I am a researcher in artificial intelligence and neuromorphic computing, working at the
+            intersection of <strong>Hierarchical Temporal Memory</strong>, <strong>Reflex Memory</strong>, and
+            <strong>Bayesian learning</strong>. I’m excited about systems that can learn online,
+            adapt continuously, and run efficiently on real hardware.
+          </p>
+          <p>
+            This site is a living notebook for my research, projects, and teaching. I’ll be adding
+            more details over time—publications, code, and thoughts on AI, uncertainty, and
+            hardware-aware learning.
           </p>
         </div>
       </section>
 
+      <!-- Research -->
+      <section id="research" class="section">
+        <h2 class="section-title">
+          <span class="section-icon">✶</span>
+          <span>Research</span>
+        </h2>
+        <div class="section-body card-grid">
+          <article class="card">
+            <h3>Neuromorphic Time-Series Intelligence</h3>
+            <p>
+              Designing HTM- and Reflex-Memory-based architectures for streaming anomaly detection
+              and forecasting, with a focus on scalability, latency, and robustness.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Bayesian Neural Networks &amp; Uncertainty</h3>
+            <p>
+              Exploring boosted variational inference, uncertainty calibration, and practical
+              Bayesian deep learning for decision-making under imperfect information.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Hardware-Conscious AI</h3>
+            <p>
+              Investigating Domain Wall Memory and other emerging devices as accelerators for
+              temporal learning, co-designing algorithms and hardware.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Publications -->
+      <section id="publications" class="section">
+        <h2 class="section-title">
+          <span class="section-icon">▫</span>
+          <span>Publications</span>
+        </h2>
+        <div class="section-body">
+          <p class="section-note">
+            I’ll list full citations here soon. For now, this is a placeholder.
+          </p>
+          <ul class="pub-list">
+            <li class="pub-item">
+              <div class="pub-badge">Journal</div>
+              <div class="pub-content">
+                <div class="pub-title">Enhancing Hierarchical Temporal Memory with Hardware-Accelerated Reflex Memory</div>
+                <div class="pub-meta">P. Bera et al. · Under review</div>
+                <div class="pub-links">
+                  <!-- TODO: link to PDF / arXiv / code when ready -->
+                  <a href="#" class="pub-link">PDF (coming soon)</a>
+                </div>
+              </div>
+            </li>
+            <li class="pub-item">
+              <div class="pub-badge">Preprint</div>
+              <div class="pub-content">
+                <div class="pub-title">Boosted Variational Inference for Bayesian Neural Networks</div>
+                <div class="pub-meta">P. Bera et al. · In preparation</div>
+                <div class="pub-links">
+                  <a href="#" class="pub-link">Draft (coming soon)</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section">
+        <h2 class="section-title">
+          <span class="section-icon">✺</span>
+          <span>Projects</span>
+        </h2>
+        <div class="section-body card-grid">
+          <article class="card">
+            <h3>Multi-Agent Reflex Memory</h3>
+            <p>
+              A distributed anomaly detection framework where multiple Reflex-Memory agents
+              coordinate over streaming data from domains like finance, IoT, and transportation.
+            </p>
+            <p class="card-tagline">Streaming · Agents · HTM · Anomaly</p>
+          </article>
+          <article class="card">
+            <h3>SPIMulator: Spintronic Processing-in-Memory</h3>
+            <p>
+              A simulator for Domain Wall Memory based processing-in-memory architectures,
+              exploring matrix operations and neuromorphic workloads.
+            </p>
+            <p class="card-tagline">Hardware · DWM · PIM</p>
+          </article>
+          <article class="card">
+            <h3>Boosted Bayesian Time-Series Models</h3>
+            <p>
+              Prototyping Bayesian models with boosted variational inference on synthetic and real
+              time-series, emphasizing calibrated uncertainty.
+            </p>
+            <p class="card-tagline">Bayesian · Time-series · Uncertainty</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Teaching -->
       <section id="teaching" class="section">
-        <h2>Teaching</h2>
-        <!-- TODO: Add teaching roles / courses -->
-        <p>
-          Instructor &amp; teaching assistant experience in digital logic, AI, and related topics.
-        </p>
+        <h2 class="section-title">
+          <span class="section-icon">◯</span>
+          <span>Teaching</span>
+        </h2>
+        <div class="section-body">
+          <p>
+            I enjoy teaching and mentoring, especially in digital logic, machine learning, and
+            systems that bridge hardware and AI. I’ll add course materials and resources here over
+            time.
+          </p>
+          <ul class="simple-list">
+            <li>Instructor of record – Digital Logic Laboratory (FPGA-based design)</li>
+            <li>Mentoring students on projects in neuromorphic computing and anomaly detection</li>
+          </ul>
+        </div>
       </section>
 
-      <section id="cv" class="section">
-        <h2>CV</h2>
-        <!-- TODO: Upload your CV PDF and link it here -->
-        <p>
-          <a href="#" class="btn" target="_blank" rel="noopener noreferrer">
-            Download CV (PDF)
-          </a>
-        </p>
-      </section>
-
+      <!-- Contact -->
       <section id="contact" class="section">
-        <h2>Contact</h2>
-        <!-- TODO: Add your real email -->
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <h2 class="section-title">
+          <span class="section-icon">△</span>
+          <span>Contact</span>
+        </h2>
+        <div class="section-body">
+          <p>
+            The easiest way to reach me is by email. I’m happy to connect about research,
+            collaborations, or interesting problems at the edge of AI and hardware.
+          </p>
+          <p class="contact-line">
+            <strong>Email:</strong>
+            <a href="mailto:pavia.bera@example.com">pavia.bera@example.com</a>
+          </p>
+          <p class="contact-line">
+            <strong>GitHub:</strong>
+            <a href="#" target="_blank" rel="noopener noreferrer">github.com/paviabera</a>
+          </p>
+          <p class="contact-line">
+            <strong>LinkedIn:</strong>
+            <a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
+          </p>
+        </div>
       </section>
-
-      <footer class="footer">
-        &copy; <span id="year"></span> Pavia Bera. All rights reserved.
-      </footer>
     </main>
   </div>
 
   <script>
-    // Set current year in footer
+    // Set current year in sidebar footer
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Highlight active nav item on scroll
+    const sections = document.querySelectorAll('.section');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    const sectionMap = {};
+    sections.forEach(sec => {
+      sectionMap[sec.id] = sec;
+    });
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            navLinks.forEach(link => {
+              link.classList.toggle(
+                'active',
+                link.getAttribute('href') === '#' + id
+              );
+            });
+          }
+        });
+      },
+      {
+        root: null,
+        rootMargin: '0px 0px -60% 0px',
+        threshold: 0.2
+      }
+    );
+
+    sections.forEach(section => observer.observe(section));
   </script>
 </body>
 </html>
