@@ -5,53 +5,57 @@
   <meta charset="UTF-8">
   <title>Pavia Bera – AI & Neuromorphic Computing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal website of Pavia Bera, PhD in AI & Neuromorphic Computing.">
+  <meta name="description" content="Pavia Bera is a PhD researcher at USF working on neuromorphic computing, HTM-based sequence modeling, and hardware-software co-design.">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="layout">
+
     <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-inner">
+
         <div class="brand">
           <div class="avatar-circle">PB</div>
           <div>
             <h1 class="name">Pavia Bera</h1>
-            <p class="role">PhD in AI &amp; Neuromorphic Computing</p>
+            <p class="role">PhD Researcher</p>
+            <p class="affiliation">University of South Florida</p>
           </div>
         </div>
 
         <nav class="nav">
-          <a href="#about" class="nav-link active">About</a>
-          <a href="#research" class="nav-link">Research</a>
+          <a href="#about"        class="nav-link active">About</a>
+          <a href="#research"     class="nav-link">Research</a>
           <a href="#publications" class="nav-link">Publications</a>
-          <a href="#projects" class="nav-link">Projects</a>
-          <a href="#teaching" class="nav-link">Teaching</a>
-          <a href="#contact" class="nav-link">Contact</a>
+          <a href="#projects"     class="nav-link">Projects</a>
+          <a href="#teaching"     class="nav-link">Teaching</a>
+          <a href="#contact"      class="nav-link">Contact</a>
         </nav>
 
         <div class="sidebar-meta">
           <p class="location">📍 Tampa, FL, USA</p>
-          <p class="email">
-            <a href="mailto:pavia.bera@example.com">pavia.bera@example.com</a>
-          </p>
+          <p class="email"><a href="mailto:paviabera@usf.edu">paviabera@usf.edu</a></p>
           <div class="social">
-            <!-- TODO: replace # with your real links -->
-            <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="#" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <a href="https://github.com/paviabera" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/paviabera/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
           </div>
         </div>
 
         <div class="sidebar-footer">
-          <span>&copy; <span id="year"></span></span>
+          <span>&copy; <span id="year"></span> Pavia Bera</span>
         </div>
+
       </div>
     </aside>
 
     <!-- Main content -->
     <main class="main">
-      <!-- Hero / About -->
+
+      <!-- About -->
       <section id="about" class="section">
         <h2 class="section-title">
           <span class="section-icon">◎</span>
@@ -59,15 +63,22 @@
         </h2>
         <div class="section-body">
           <p>
-            I am a researcher in artificial intelligence and neuromorphic computing, working at the
-            intersection of <strong>Hierarchical Temporal Memory</strong>, <strong>Reflex Memory</strong>, and
-            <strong>Bayesian learning</strong>. I’m excited about systems that can learn online,
-            adapt continuously, and run efficiently on real hardware.
+            I am a PhD candidate in Electrical Engineering at the University of South Florida,
+            working in the <a href="#" class="inline-link">Nano Computing Research Group</a> under
+            Dr. Sanjukta Bhanja. My research sits at the intersection of
+            <strong>neuromorphic computing</strong>, <strong>probabilistic machine learning</strong>,
+            and <strong>hardware-software co-design</strong>.
           </p>
           <p>
-            This site is a living notebook for my research, projects, and teaching. I’ll be adding
-            more details over time—publications, code, and thoughts on AI, uncertainty, and
-            hardware-aware learning.
+            I build systems that learn online, adapt to streaming data, and run efficiently on
+            real hardware — from Hierarchical Temporal Memory architectures to spintronic
+            processing-in-memory simulators. I care about uncertainty: knowing what a model
+            doesn't know is often as important as what it does.
+          </p>
+          <p>
+            Before the PhD, I worked as a software engineer at Cognizant, which gave me
+            an enduring appreciation for systems that have to work in the real world,
+            not just on benchmarks.
           </p>
         </div>
       </section>
@@ -80,24 +91,26 @@
         </h2>
         <div class="section-body card-grid">
           <article class="card">
-            <h3>Neuromorphic Time-Series Intelligence</h3>
+            <h3>Neuromorphic Sequence Modeling</h3>
             <p>
-              Designing HTM- and Reflex-Memory-based architectures for streaming anomaly detection
-              and forecasting, with a focus on scalability, latency, and robustness.
+              Designing HTM- and Reflex-Memory-based architectures for streaming anomaly
+              detection and forecasting, with a focus on scalability, latency, and biological
+              plausibility.
             </p>
           </article>
           <article class="card">
-            <h3>Bayesian Neural Networks &amp; Uncertainty</h3>
+            <h3>Bayesian Deep Learning</h3>
             <p>
-              Exploring boosted variational inference, uncertainty calibration, and practical
-              Bayesian deep learning for decision-making under imperfect information.
+              Boosted variational inference for uncertainty-aware neural networks, with
+              applications to decision-making under imperfect information and calibrated
+              probabilistic predictions.
             </p>
           </article>
           <article class="card">
             <h3>Hardware-Conscious AI</h3>
             <p>
-              Investigating Domain Wall Memory and other emerging devices as accelerators for
-              temporal learning, co-designing algorithms and hardware.
+              Co-designing algorithms and emerging memory devices — Domain Wall Memory,
+              spintronic PIM — as accelerators for temporal learning and neural workloads.
             </p>
           </article>
         </div>
@@ -110,31 +123,52 @@
           <span>Publications</span>
         </h2>
         <div class="section-body">
-          <p class="section-note">
-            I’ll list full citations here soon. For now, this is a placeholder.
-          </p>
           <ul class="pub-list">
-            <li class="pub-item">
-              <div class="pub-badge">Journal</div>
-              <div class="pub-content">
-                <div class="pub-title">Enhancing Hierarchical Temporal Memory with Hardware-Accelerated Reflex Memory</div>
-                <div class="pub-meta">P. Bera et al. · Under review</div>
-                <div class="pub-links">
-                  <!-- TODO: link to PDF / arXiv / code when ready -->
-                  <a href="#" class="pub-link">PDF (coming soon)</a>
-                </div>
-              </div>
-            </li>
+
             <li class="pub-item">
               <div class="pub-badge">Preprint</div>
               <div class="pub-content">
-                <div class="pub-title">Boosted Variational Inference for Bayesian Neural Networks</div>
-                <div class="pub-meta">P. Bera et al. · In preparation</div>
+                <div class="pub-title">Quantification of Uncertainties in Probabilistic Deep Neural Network by Implementing Boosting of Variational Inference</div>
+                <div class="pub-meta">P. Bera, S. Bhanja · arXiv:2503.13909 · 2025</div>
                 <div class="pub-links">
-                  <a href="#" class="pub-link">Draft (coming soon)</a>
+                  <a href="https://arxiv.org/abs/2503.13909" class="pub-link" target="_blank" rel="noopener noreferrer">arXiv</a>
                 </div>
               </div>
             </li>
+
+            <li class="pub-item">
+              <div class="pub-badge">Journal</div>
+              <div class="pub-content">
+                <div class="pub-title">Enhancing Biologically Inspired Hierarchical Temporal Memory with Hardware-Accelerated Reflex Memory</div>
+                <div class="pub-meta">P. Bera, S.H. Moon, J. Adorno, D.A. Reis, S. Bhanja · Neurocomputing · 2025</div>
+                <div class="pub-links">
+                  <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" class="pub-link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item">
+              <div class="pub-badge">Journal</div>
+              <div class="pub-content">
+                <div class="pub-title">SPIMulator: A Spintronic Processing-In-Memory Simulator for Racetracks</div>
+                <div class="pub-meta">P. Bera, S. Cahoon, S. Bhanja, A. Jones · ACM Transactions on Embedded Computing Systems · 2024</div>
+                <div class="pub-links">
+                  <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" class="pub-link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item">
+              <div class="pub-badge">Conference</div>
+              <div class="pub-content">
+                <div class="pub-title">Joint Pain Detection by Gait Analysis for Elderly Healthcare</div>
+                <div class="pub-meta">P. Bera, R. Kar, A. Konar · IEEE ICCRI · 2015</div>
+                <div class="pub-links">
+                  <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" class="pub-link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+              </div>
+            </li>
+
           </ul>
         </div>
       </section>
@@ -150,25 +184,27 @@
             <h3>Multi-Agent Reflex Memory</h3>
             <p>
               A distributed anomaly detection framework where multiple Reflex-Memory agents
-              coordinate over streaming data from domains like finance, IoT, and transportation.
+              coordinate over streaming data across domains including finance, IoT, and
+              transportation.
             </p>
-            <p class="card-tagline">Streaming · Agents · HTM · Anomaly</p>
+            <p class="card-tagline">Streaming · Agents · HTM · Anomaly Detection</p>
           </article>
           <article class="card">
-            <h3>SPIMulator: Spintronic Processing-in-Memory</h3>
+            <h3>SPIMulator</h3>
             <p>
               A simulator for Domain Wall Memory based processing-in-memory architectures,
-              exploring matrix operations and neuromorphic workloads.
+              supporting matrix operations and neuromorphic workloads on spintronic devices.
             </p>
-            <p class="card-tagline">Hardware · DWM · PIM</p>
+            <p class="card-tagline">Hardware · DWM · PIM · Spintronics</p>
           </article>
           <article class="card">
-            <h3>Boosted Bayesian Time-Series Models</h3>
+            <h3>Boosted Variational BNNs</h3>
             <p>
-              Prototyping Bayesian models with boosted variational inference on synthetic and real
-              time-series, emphasizing calibrated uncertainty.
+              Bayesian neural networks with boosted variational inference on synthetic and
+              real time-series data, emphasizing calibrated uncertainty and practical
+              deployability.
             </p>
-            <p class="card-tagline">Bayesian · Time-series · Uncertainty</p>
+            <p class="card-tagline">Bayesian · Uncertainty · Time-series</p>
           </article>
         </div>
       </section>
@@ -181,13 +217,12 @@
         </h2>
         <div class="section-body">
           <p>
-            I enjoy teaching and mentoring, especially in digital logic, machine learning, and
-            systems that bridge hardware and AI. I’ll add course materials and resources here over
-            time.
+            I enjoy teaching and mentoring, especially where hardware meets algorithms.
+            At USF I have served as instructor of record and mentor on student research projects.
           </p>
           <ul class="simple-list">
-            <li>Instructor of record – Digital Logic Laboratory (FPGA-based design)</li>
-            <li>Mentoring students on projects in neuromorphic computing and anomaly detection</li>
+            <li>Instructor of record — Digital Logic Laboratory (FPGA-based design, Basys3)</li>
+            <li>Mentoring students on neuromorphic computing and streaming anomaly detection</li>
           </ul>
         </div>
       </section>
@@ -200,38 +235,38 @@
         </h2>
         <div class="section-body">
           <p>
-            The easiest way to reach me is by email. I’m happy to connect about research,
-            collaborations, or interesting problems at the edge of AI and hardware.
+            I am happy to connect about research, collaborations, or interesting problems
+            at the intersection of AI and hardware. Email is the best way to reach me.
           </p>
           <p class="contact-line">
             <strong>Email:</strong>
-            <a href="mailto:pavia.bera@example.com">pavia.bera@example.com</a>
+            <a href="mailto:paviabera@usf.edu">paviabera@usf.edu</a>
+            &nbsp;·&nbsp;
+            <a href="mailto:paviabera123@gmail.com">paviabera123@gmail.com</a>
           </p>
           <p class="contact-line">
             <strong>GitHub:</strong>
-            <a href="#" target="_blank" rel="noopener noreferrer">github.com/paviabera</a>
+            <a href="https://github.com/paviabera" target="_blank" rel="noopener noreferrer">github.com/paviabera</a>
           </p>
           <p class="contact-line">
             <strong>LinkedIn:</strong>
-            <a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/your-profile</a>
+            <a href="https://www.linkedin.com/in/paviabera/" target="_blank" rel="noopener noreferrer">linkedin.com/in/paviabera</a>
+          </p>
+          <p class="contact-line">
+            <strong>Google Scholar:</strong>
+            <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Pavia Bera</a>
           </p>
         </div>
       </section>
+
     </main>
   </div>
 
   <script>
-    // Set current year in sidebar footer
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Highlight active nav item on scroll
     const sections = document.querySelectorAll('.section');
     const navLinks = document.querySelectorAll('.nav-link');
-
-    const sectionMap = {};
-    sections.forEach(sec => {
-      sectionMap[sec.id] = sec;
-    });
 
     const observer = new IntersectionObserver(
       entries => {
@@ -239,22 +274,15 @@
           if (entry.isIntersecting) {
             const id = entry.target.id;
             navLinks.forEach(link => {
-              link.classList.toggle(
-                'active',
-                link.getAttribute('href') === '#' + id
-              );
+              link.classList.toggle('active', link.getAttribute('href') === '#' + id);
             });
           }
         });
       },
-      {
-        root: null,
-        rootMargin: '0px 0px -60% 0px',
-        threshold: 0.2
-      }
+      { root: null, rootMargin: '0px 0px -60% 0px', threshold: 0.2 }
     );
 
-    sections.forEach(section => observer.observe(section));
+    sections.forEach(s => observer.observe(s));
   </script>
 </body>
 </html>
