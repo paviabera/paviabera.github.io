@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <title>Pavia Bera – AI & Neuromorphic Computing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Pavia Bera is a PhD researcher at USF working on neuromorphic computing, HTM-based sequence modeling, and hardware-software co-design.">
+  <meta name="description" content="Pavia Bera is a PhD researcher at USF working on neuromorphic computing, Bayesian deep learning, and hardware-software co-design. Publications in Neurocomputing, ACM TECS, and IEEE.">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
@@ -13,7 +13,6 @@
 <body>
   <div class="layout">
 
-    <!-- Sidebar -->
     <aside class="sidebar">
       <div class="sidebar-inner">
 
@@ -21,18 +20,19 @@
           <div class="avatar-circle">
             <img src="pavia_pic.jpg" alt="Pavia Bera" />
           </div>
-          <div>
-            <h1 class="name">Pavia Bera</h1>
-            <p class="role">PhD Researcher</p>
-            <p class="affiliation">University of South Florida</p>
-          </div>
+          <h1 class="name">Pavia Bera</h1>
+          <p class="role">PhD Researcher</p>
+          <p class="affiliation">University of South Florida</p>
+          <a href="Resume_Bera.pdf" class="cv-button" target="_blank" rel="noopener noreferrer">↓ Download CV</a>
         </div>
 
         <nav class="nav">
           <a href="#about"        class="nav-link active">About</a>
+          <a href="#news"         class="nav-link">News</a>
           <a href="#research"     class="nav-link">Research</a>
           <a href="#publications" class="nav-link">Publications</a>
           <a href="#projects"     class="nav-link">Projects</a>
+          <a href="#skills"       class="nav-link">Skills</a>
           <a href="#teaching"     class="nav-link">Teaching</a>
           <a href="#contact"      class="nav-link">Contact</a>
         </nav>
@@ -43,7 +43,7 @@
           <div class="social">
             <a href="https://github.com/paviabera" target="_blank" rel="noopener noreferrer">GitHub</a>
             <a href="https://www.linkedin.com/in/paviabera/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
           </div>
         </div>
 
@@ -54,84 +54,108 @@
       </div>
     </aside>
 
-    <!-- Main content -->
     <main class="main">
 
       <!-- About -->
       <section id="about" class="section">
-        <h2 class="section-title">
-          <span class="section-icon">◎</span>
-          <span>About</span>
-        </h2>
+        <h2 class="section-title"><span class="section-icon">◎</span><span>About</span></h2>
         <div class="section-body">
           <p>
-            I am a PhD candidate in Electrical Engineering at the University of South Florida,
-            working in the <a href="#" class="inline-link">Nano Computing Research Group</a> under
-            Dr. Sanjukta Bhanja. My research sits at the intersection of
+            I build AI systems that learn continuously, reason under uncertainty, and run efficiently
+            on real hardware — achieving <strong>7.55× efficiency gains</strong> in neuromorphic streaming
+            models and <strong>5% accuracy improvements</strong> in Bayesian neural networks through
+            novel Boosted Variational Inference methods.
+          </p>
+          <p>
+            I am a PhD candidate in Electrical Engineering at the
+            <a href="https://www.usf.edu" class="inline-link">University of South Florida</a>,
+            working in the Nano Computing Research Group under Dr. Sanjukta Bhanja. My research spans
             <strong>neuromorphic computing</strong>, <strong>probabilistic machine learning</strong>,
-            and <strong>hardware-software co-design</strong>.
+            and <strong>hardware-software co-design</strong>, with publications in Neurocomputing,
+            ACM TECS, and IEEE venues.
           </p>
           <p>
-            I build systems that learn online, adapt to streaming data, and run efficiently on
-            real hardware — from Hierarchical Temporal Memory architectures to spintronic
-            processing-in-memory simulators. I care about uncertainty: knowing what a model
-            doesn't know is often as important as what it does.
+            Before the PhD, I worked as a software engineer at Cognizant, delivering banking solutions
+            with $100K revenue impact — which gives me an enduring appreciation for systems that have
+            to work in the real world, not just on benchmarks.
           </p>
-          <p>
-            Before the PhD, I worked as a software engineer at Cognizant, which gave me
-            an enduring appreciation for systems that have to work in the real world,
-            not just on benchmarks.
-          </p>
+        </div>
+      </section>
+
+      <!-- News -->
+      <section id="news" class="section">
+        <h2 class="section-title"><span class="section-icon">◈</span><span>News</span></h2>
+        <div class="section-body">
+          <ul class="news-list">
+            <li class="news-item">
+              <span class="news-date">Mar 2026</span>
+              <span class="news-text">Paper accepted at <strong>IEEE ISVLSI 2026</strong> — "Near-Zero Multiplication Escape: A Framework for Sparse Deep Neural Networks Based on Racetrack Memory."</span>
+            </li>
+            <li class="news-item">
+              <span class="news-date">2026</span>
+              <span class="news-text">Multi-Agent Reflex Memory (MA-RM) paper under preparation for submission to <strong>Knowledge-Based Systems</strong> (Elsevier).</span>
+            </li>
+            <li class="news-item">
+              <span class="news-date">2025</span>
+              <span class="news-text">Selected for the <strong>ECEDHA Professional Development Award</strong> — national teaching leadership workshop funded by NSF.</span>
+            </li>
+            <li class="news-item">
+              <span class="news-date">2025</span>
+              <span class="news-text">Completed national active learning workshop <em>"Creating an Interactive Classroom: Active Learning From Day One"</em> through the <strong>iREDEFINE Program</strong>.</span>
+            </li>
+            <li class="news-item">
+              <span class="news-date">2025</span>
+              <span class="news-text">Organized and led <strong>LLM &amp; AI Bootcamps</strong> for undergraduate STEM majors at USF, covering applied machine learning and large language models.</span>
+            </li>
+            <li class="news-item">
+              <span class="news-date">2022</span>
+              <span class="news-text">Founded the <strong>Graduate Engineering Communication Association (GECA)</strong> at USF, supporting bilingual and international STEM graduate students.</span>
+            </li>
+          </ul>
         </div>
       </section>
 
       <!-- Research -->
       <section id="research" class="section">
-        <h2 class="section-title">
-          <span class="section-icon">✶</span>
-          <span>Research</span>
-        </h2>
+        <h2 class="section-title"><span class="section-icon">✶</span><span>Research</span></h2>
         <div class="section-body card-grid">
           <article class="card">
             <h3>Neuromorphic Sequence Modeling</h3>
-            <p>
-              Designing HTM- and Reflex-Memory-based architectures for streaming anomaly
-              detection and forecasting, with a focus on scalability, latency, and biological
-              plausibility.
-            </p>
+            <p>HTM- and Reflex-Memory-based architectures for streaming anomaly detection and forecasting, achieving 7.55× efficiency gains over baseline implementations.</p>
           </article>
           <article class="card">
             <h3>Bayesian Deep Learning</h3>
-            <p>
-              Boosted variational inference for uncertainty-aware neural networks, with
-              applications to decision-making under imperfect information and calibrated
-              probabilistic predictions.
-            </p>
+            <p>Boosted Variational Inference for uncertainty-aware neural networks, improving predictive accuracy by 5% on financial time-series with better posterior approximation.</p>
           </article>
           <article class="card">
             <h3>Hardware-Conscious AI</h3>
-            <p>
-              Co-designing algorithms and emerging memory devices — Domain Wall Memory,
-              spintronic PIM — as accelerators for temporal learning and neural workloads.
-            </p>
+            <p>Algorithm–hardware co-design using Domain Wall Memory and spintronic PIM as accelerators for neural workloads, bridging ML models with VLSI architectures.</p>
           </article>
         </div>
       </section>
 
       <!-- Publications -->
       <section id="publications" class="section">
-        <h2 class="section-title">
-          <span class="section-icon">▫</span>
-          <span>Publications</span>
-        </h2>
+        <h2 class="section-title"><span class="section-icon">▫</span><span>Publications</span></h2>
         <div class="section-body">
           <ul class="pub-list">
 
             <li class="pub-item">
-              <div class="pub-badge">Preprint</div>
+              <div class="pub-badge conference">Conference</div>
+              <div class="pub-content">
+                <div class="pub-title">Near-Zero Multiplication Escape: A Framework for Sparse Deep Neural Networks Based on Racetrack Memory</div>
+                <div class="pub-meta">P. Bera et al. · <strong>IEEE ISVLSI 2026</strong> · Accepted</div>
+                <div class="pub-links">
+                  <span class="pub-link-muted">PDF coming soon</span>
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item">
+              <div class="pub-badge preprint">Preprint</div>
               <div class="pub-content">
                 <div class="pub-title">Quantification of Uncertainties in Probabilistic Deep Neural Network by Implementing Boosting of Variational Inference</div>
-                <div class="pub-meta">P. Bera, S. Bhanja · arXiv:2503.13909 · 2025</div>
+                <div class="pub-meta">P. Bera, S. Bhanja · <strong>arXiv:2503.13909</strong> · 2025</div>
                 <div class="pub-links">
                   <a href="https://arxiv.org/abs/2503.13909" class="pub-link" target="_blank" rel="noopener noreferrer">arXiv</a>
                 </div>
@@ -139,34 +163,48 @@
             </li>
 
             <li class="pub-item">
-              <div class="pub-badge">Journal</div>
+              <div class="pub-badge journal">Journal</div>
               <div class="pub-content">
                 <div class="pub-title">Enhancing Biologically Inspired Hierarchical Temporal Memory with Hardware-Accelerated Reflex Memory</div>
-                <div class="pub-meta">P. Bera, S.H. Moon, J. Adorno, D.A. Reis, S. Bhanja · Neurocomputing · 2025</div>
+                <div class="pub-meta">P. Bera, S.H. Moon, J. Adorno, D.A. Reis, S. Bhanja · <strong>Neurocomputing</strong> · 2025</div>
                 <div class="pub-links">
+                  <a href="https://doi.org/10.1016/j.neucom.2025.132397" class="pub-link" target="_blank" rel="noopener noreferrer">DOI</a>
                   <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" class="pub-link" target="_blank" rel="noopener noreferrer">Scholar</a>
                 </div>
               </div>
             </li>
 
             <li class="pub-item">
-              <div class="pub-badge">Journal</div>
+              <div class="pub-badge journal">Journal</div>
               <div class="pub-content">
                 <div class="pub-title">SPIMulator: A Spintronic Processing-In-Memory Simulator for Racetracks</div>
-                <div class="pub-meta">P. Bera, S. Cahoon, S. Bhanja, A. Jones · ACM Transactions on Embedded Computing Systems · 2024</div>
+                <div class="pub-meta">P. Bera, S. Cahoon, S. Bhanja, A. Jones · <strong>ACM Transactions on Embedded Computing Systems</strong>, 23(6) · 2024</div>
                 <div class="pub-links">
+                  <a href="https://dl.acm.org/doi/10.1145/3649217" class="pub-link" target="_blank" rel="noopener noreferrer">DOI</a>
                   <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" class="pub-link" target="_blank" rel="noopener noreferrer">Scholar</a>
                 </div>
               </div>
             </li>
 
             <li class="pub-item">
-              <div class="pub-badge">Conference</div>
+              <div class="pub-badge conference">Conference</div>
               <div class="pub-content">
                 <div class="pub-title">Joint Pain Detection by Gait Analysis for Elderly Healthcare</div>
-                <div class="pub-meta">P. Bera, R. Kar, A. Konar · IEEE ICCRI · 2015</div>
+                <div class="pub-meta">P. Bera, R. Kar, A. Konar · <strong>IEEE ICRCICN</strong> · 2015 · <span class="pub-cited">Cited 6×</span></div>
                 <div class="pub-links">
+                  <a href="https://ieeexplore.ieee.org/document/7489185" class="pub-link" target="_blank" rel="noopener noreferrer">DOI</a>
                   <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" class="pub-link" target="_blank" rel="noopener noreferrer">Scholar</a>
+                </div>
+              </div>
+            </li>
+
+            <li class="pub-item">
+              <div class="pub-badge wip">In prep</div>
+              <div class="pub-content">
+                <div class="pub-title">Advancing Hierarchical Temporal Memory with Multi-Agent Reflex Memory</div>
+                <div class="pub-meta">P. Bera, J. Adorno, S. Bhanja · Targeting <strong>Knowledge-Based Systems</strong> (Elsevier)</div>
+                <div class="pub-links">
+                  <span class="pub-link-muted">Manuscript in preparation</span>
                 </div>
               </div>
             </li>
@@ -177,85 +215,154 @@
 
       <!-- Projects -->
       <section id="projects" class="section">
-        <h2 class="section-title">
-          <span class="section-icon">✺</span>
-          <span>Projects</span>
-        </h2>
+        <h2 class="section-title"><span class="section-icon">✺</span><span>Projects</span></h2>
         <div class="section-body card-grid">
+
           <article class="card">
             <h3>Multi-Agent Reflex Memory</h3>
-            <p>
-              A distributed anomaly detection framework where multiple Reflex-Memory agents
-              coordinate over streaming data across domains including finance, IoT, and
-              transportation.
-            </p>
-            <p class="card-tagline">Streaming · Agents · HTM · Anomaly Detection</p>
+            <p>Distributed anomaly detection framework where multiple Reflex-Memory agents coordinate over streaming data across finance, IoT, and transportation domains. Based on HTM experiments with multi-agent coordination.</p>
+            <p class="card-tagline">HTM · Streaming · Agents · Anomaly Detection</p>
+            <div class="card-links">
+              <a href="https://github.com/jadorno/htm-experiments" class="card-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            </div>
           </article>
+
           <article class="card">
             <h3>SPIMulator</h3>
-            <p>
-              A simulator for Domain Wall Memory based processing-in-memory architectures,
-              supporting matrix operations and neuromorphic workloads on spintronic devices.
-            </p>
-            <p class="card-tagline">Hardware · DWM · PIM · Spintronics</p>
+            <p>Simulator for Domain Wall Memory based processing-in-memory architectures, supporting matrix operations and neuromorphic workloads on spintronic devices. Developed in collaboration with the Jones Lab at Pitt.</p>
+            <p class="card-tagline">DWM · PIM · Spintronics · Hardware</p>
+            <div class="card-links">
+              <a href="https://github.com/Pitt-JonesLab/DWMsimulator" class="card-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            </div>
           </article>
+
+          <article class="card">
+            <h3>NLP Sentiment Pipeline</h3>
+            <p>BERT-based NLP pipeline for sentiment classification on social media datasets, deployed as a real-time inference API end-to-end.</p>
+            <p class="card-tagline">PyTorch · BERT · NLP · API</p>
+            <div class="card-links">
+              <a href="https://github.com/paviabera/nlp-sentiment-pipeline" class="card-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            </div>
+          </article>
+
           <article class="card">
             <h3>Boosted Variational BNNs</h3>
-            <p>
-              Bayesian neural networks with boosted variational inference on synthetic and
-              real time-series data, emphasizing calibrated uncertainty and practical
-              deployability.
-            </p>
-            <p class="card-tagline">Bayesian · Uncertainty · Time-series</p>
+            <p>Bayesian neural networks with boosted variational inference for improved posterior approximation, with calibrated uncertainty on financial time-series.</p>
+            <p class="card-tagline">PyTorch · Bayesian · Uncertainty · Time-series</p>
+            <div class="card-links">
+              <a href="https://github.com/paviabera/Boosting-Bayesian-Neural-Network" class="card-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            </div>
           </article>
+
+<article class="card">
+            <h3>Monte Carlo Photon Simulation</h3>
+            <p>Monte Carlo simulation predicting photon pathways through human tissue, modeling photon-tissue interactions for biomedical and optical applications such as imaging and diagnostics.</p>
+            <p class="card-tagline">Monte Carlo · Biomedical · Photonics · Python</p>
+            <div class="card-links">
+              <a href="https://github.com/paviabera/MonteCarlo" class="card-link" target="_blank" rel="noopener noreferrer">GitHub →</a>
+            </div>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <h2 class="section-title"><span class="section-icon">◻</span><span>Skills</span></h2>
+        <div class="section-body skills-grid">
+
+          <div class="skill-group">
+            <h4 class="skill-label">Languages</h4>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">C/C++</span>
+              <span class="tag">MATLAB</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Verilog/FPGA</span>
+              <span class="tag">Java</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-label">ML & AI</h4>
+            <div class="skill-tags">
+              <span class="tag">PyTorch</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">Bayesian NNs</span>
+              <span class="tag">Transformers</span>
+              <span class="tag">LLM Fine-tuning</span>
+              <span class="tag">HTM.core</span>
+              <span class="tag">Anomaly Detection</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-label">Hardware & Systems</h4>
+            <div class="skill-tags">
+              <span class="tag">CUDA</span>
+              <span class="tag">Neuromorphic Computing</span>
+              <span class="tag">Domain Wall Memory</span>
+              <span class="tag">FPGA Design</span>
+              <span class="tag">PIM Architectures</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h4 class="skill-label">Cloud & Tools</h4>
+            <div class="skill-tags">
+              <span class="tag">AWS SageMaker</span>
+              <span class="tag">Google Cloud</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">Git</span>
+              <span class="tag">LaTeX</span>
+              <span class="tag">Linux</span>
+            </div>
+          </div>
+
         </div>
       </section>
 
       <!-- Teaching -->
       <section id="teaching" class="section">
-        <h2 class="section-title">
-          <span class="section-icon">◯</span>
-          <span>Teaching</span>
-        </h2>
+        <h2 class="section-title"><span class="section-icon">◯</span><span>Teaching</span></h2>
         <div class="section-body">
           <p>
-            I enjoy teaching and mentoring, especially where hardware meets algorithms.
-            At USF I have served as instructor of record and mentor on student research projects.
+            I design hands-on, inclusive learning environments bridging theory and practice.
+            Selected for the national <strong>ECEDHA Professional Development Award (2025)</strong>
+            and the NSF-funded <strong>iREDEFINE Program</strong> for teaching leadership in engineering.
           </p>
           <ul class="simple-list">
-            <li>Instructor of record — Digital Logic Laboratory (FPGA-based design, Basys3)</li>
-            <li>Mentoring students on neuromorphic computing and streaming anomaly detection</li>
+            <li>Instructor of Record — Digital Logic Laboratory, USF (Jan 2023 – Present); 60+ students mentored across FPGA design and Verilog programming</li>
+            <li>Bootcamp Instructor — Data Science &amp; AI/LLM Bootcamps for undergraduate STEM majors at USF</li>
+            <li>Founded <strong>GECA</strong> (Graduate Engineering Communication Association) — supporting bilingual and international STEM graduate students</li>
+            <li>Organized "AI for Everyone" workshops and Digital Logic Lab sessions for local high school students</li>
+            <li>Teaching Assistant — Digital Systems, Embedded Design, Computer Engineering (Aug 2019 – Dec 2022)</li>
           </ul>
         </div>
       </section>
 
       <!-- Contact -->
       <section id="contact" class="section">
-        <h2 class="section-title">
-          <span class="section-icon">△</span>
-          <span>Contact</span>
-        </h2>
+        <h2 class="section-title"><span class="section-icon">△</span><span>Contact</span></h2>
         <div class="section-body">
           <p>
             I am happy to connect about research, collaborations, or interesting problems
             at the intersection of AI and hardware. Email is the best way to reach me.
           </p>
-          <p class="contact-line">
-            <strong>Email:</strong>
+          <p class="contact-line"><strong>Email:</strong>
             <a href="mailto:paviabera@usf.edu">paviabera@usf.edu</a>
             &nbsp;·&nbsp;
             <a href="mailto:paviabera123@gmail.com">paviabera123@gmail.com</a>
           </p>
-          <p class="contact-line">
-            <strong>GitHub:</strong>
+          <p class="contact-line"><strong>GitHub:</strong>
             <a href="https://github.com/paviabera" target="_blank" rel="noopener noreferrer">github.com/paviabera</a>
           </p>
-          <p class="contact-line">
-            <strong>LinkedIn:</strong>
+          <p class="contact-line"><strong>LinkedIn:</strong>
             <a href="https://www.linkedin.com/in/paviabera/" target="_blank" rel="noopener noreferrer">linkedin.com/in/paviabera</a>
           </p>
-          <p class="contact-line">
-            <strong>Google Scholar:</strong>
+          <p class="contact-line"><strong>Google Scholar:</strong>
             <a href="https://scholar.google.com/citations?user=0a2pWy8AAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Pavia Bera</a>
           </p>
         </div>
@@ -266,10 +373,8 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
-
     const sections = document.querySelectorAll('.section');
     const navLinks = document.querySelectorAll('.nav-link');
-
     const observer = new IntersectionObserver(
       entries => {
         entries.forEach(entry => {
@@ -281,9 +386,8 @@
           }
         });
       },
-      { root: null, rootMargin: '0px 0px -60% 0px', threshold: 0.2 }
+      { root: null, rootMargin: '0px 0px -60% 0px', threshold: 0.1 }
     );
-
     sections.forEach(s => observer.observe(s));
   </script>
 </body>
